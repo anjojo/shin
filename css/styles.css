@@ -1,0 +1,131 @@
+/* Page Header */
+header {
+  height: 50vh;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p, a {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.link-dark:hover {
+  color: #7E7474;
+}
+
+#Greetings img {
+  border: 5px solid white;
+}
+
+
+/* Gallery */
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	padding: 50px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 10px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+/* Fade */
+.fade-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.animated{
+  width: 400px;
+  height: 221px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* Fade in top */
+.fadeInTop {
+  -webkit-animation: fadeInTop 1.5s both; /* Safari 4+ */
+  -moz-animation: fadeInTop 1.5s both; /* Fx 5+ */
+  -o-animation: fadeInTop 1.5s both; /* Opera 12+ */
+  animation: fadeInTop 1.5s both; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes fadeInTop {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInTop {
+  0% {
+      opacity: 0;
+      -moz-transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInTop {
+  0% {
+      opacity: 0;
+      -o-transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInTop{
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Video Section */
+#video .container .display-text {
+  text-align: left;
+}
+
+.video-greeting {
+  border: 10px solid #fff8d9;
+  width: 20%;
+  height: auto;
+}
+
+/* #video .container h3 {
+  font-family: 'Sacramento', cursive;
+  color:  #fff8d9;
+} */
+
+/*
+font-family: 'Baloo 2', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Zilla Slab', serif
+ */
